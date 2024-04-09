@@ -1,0 +1,11 @@
+[
+  "function balanceOf(address account) view returns (uint256)",
+  "function transfer(address recipient, uint256 amount) returns (bool)",
+  "function decimals() view returns (uint8)",
+  "function symbol() view returns (string)",
+  "function approve(address spender, uint256 amount) returns (bool)",
+  "function getAmountsOut(uint amountIn, address[] path) view returns (uint[] amounts)",
+  "function swapExactETHForTokens(uint amountOutMin, address[] path, address to, uint deadline) external payable",
+  "function swapExactTokensForTokens(uint256 amountIn, uint256 amountOutMin, address[] path, address to, uint256 deadline) external returns (uint256[] memory amounts)",
+  "function swapExactETHForTokensSupportingFeeOnTransferTokens(uint amountOutMin, address[] path, address to, uint deadline) external payable"
+]
